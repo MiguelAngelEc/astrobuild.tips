@@ -1,5 +1,7 @@
-/* Importar Tailwind CSS v4 */
-@import "tailwindcss";
+/* Directivas de Tailwind CSS */
+@tailwind base; /* Estilos base */
+@tailwind components; /* Componentes */
+@tailwind utilities; /* Utilidades */
 
 /* Variables CSS personalizadas */
 :root {
