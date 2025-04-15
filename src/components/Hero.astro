@@ -1,0 +1,50 @@
+---
+---
+
+<div class="hero-container">
+	<p class="instructions">
+		To get started, open the directory <code>src/pages</code> in your project.<br
+		/>
+		<strong>Code Challenge:</strong> <span class="highlight">Tweak the "Welcome to Astro" message above.</span>
+	</p>
+</div>
+
+<style>
+	.hero-container {
+		margin: 2rem 0;
+	}
+	
+	.instructions {
+		line-height: 1.6;
+		margin: 1rem 0;
+		border: 1px solid rgba(var(--accent), 25%);
+		background-color: white;
+		padding: 1.5rem;
+		border-radius: 0.6rem;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		transition: transform 0.2s ease;
+	}
+		
+	.instructions code {
+		font-size: 0.875em;
+		font-weight: bold;
+		background: rgba(var(--accent), 12%);
+		color: rgb(var(--accent));
+		border-radius: 4px;
+		padding: 0.3em 0.45em;
+	}
+	
+	.instructions strong {
+		color: rgb(var(--accent));
+		font-weight: 800;
+	}
+	
+	.highlight {
+		background-image: var(--accent-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 400%;
+		background-position: 0%;
+		font-weight: 600;
+	}
+</style>
