@@ -8,18 +8,18 @@ export interface Props {
 const { title, time, tags } = Astro.props
 ---
 
-<article class="rounded-[10px] border border-gray-200 bg-white px-4 pt-12 pb-4">
-	<time datetime="2022-10-10" class="block text-xs text-gray-500"> {time}</time>
+<article style="border-radius: 10px; border: 1px solid #e5e7eb; background-color: white; padding: 0 1rem 1rem 1rem; padding-top: 3rem;">
+	<time datetime="2022-10-10" style="display: block; font-size: 0.75rem; color: #6b7280;"> {time}</time>
 
 	<a href="#">
-		<h3 class="mt-0.5 text-lg font-medium text-gray-900">
+		<h3 style="margin-top: 0.125rem; font-size: 1.125rem; font-weight: 500; color: #111827;">
 			{title}
 		</h3>
 	</a>
 
-	<div class="mt-4 flex flex-wrap gap-1">
+	<div style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.25rem;">
 		<span
-			class="rounded-full bg-purple-100 px-2.5 py-0.5 text-xs whitespace-nowrap text-purple-600"
+			style="border-radius: 9999px; background-color: #ede9fe; padding: 0.125rem 0.625rem; font-size: 0.75rem; white-space: nowrap; color: #7c3aed;"
 		>
 			{tags}
 		</span>

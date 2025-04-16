@@ -1,7 +1,7 @@
 /* Directivas de Tailwind CSS */
-@tailwind base; /* Estilos base */
-@tailwind components; /* Componentes */
-@tailwind utilities; /* Utilidades */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* Variables CSS personalizadas */
 :root {
